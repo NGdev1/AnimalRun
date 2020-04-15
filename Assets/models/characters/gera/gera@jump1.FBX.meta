@@ -1,0 +1,204 @@
+fileFormatVersion: 2
+guid: 358bb594c1c61114dbc4a403f3c887ba
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: back1
+    100002: back2
+    100004: back3
+    100006: back4
+    100008: //RootNode
+    100010: leftFingers
+    100012: leftFoot1
+    100014: leftFoot2
+    100016: leftHand1
+    100018: leftHand2
+    100020: leftLeg1
+    100022: leftLeg2
+    100024: leftShoulder
+    100026: leftThumb
+    100028: leftWrist
+    100030: mouth
+    100032: neck1
+    100034: neck2
+    100036: rightFingers
+    100038: rightFoot1
+    100040: rightFoot2
+    100042: rightHand1
+    100044: rightHand2
+    100046: rightLeg1
+    100048: rightLeg2
+    100050: rightShoulder
+    100052: rightThumb
+    100054: rightWrist
+    100056: rootBone
+    400000: back1
+    400002: back2
+    400004: back3
+    400006: back4
+    400008: //RootNode
+    400010: leftFingers
+    400012: leftFoot1
+    400014: leftFoot2
+    400016: leftHand1
+    400018: leftHand2
+    400020: leftLeg1
+    400022: leftLeg2
+    400024: leftShoulder
+    400026: leftThumb
+    400028: leftWrist
+    400030: mouth
+    400032: neck1
+    400034: neck2
+    400036: rightFingers
+    400038: rightFoot1
+    400040: rightFoot2
+    400042: rightHand1
+    400044: rightHand2
+    400046: rightLeg1
+    400048: rightLeg2
+    400050: rightShoulder
+    400052: rightThumb
+    400054: rightWrist
+    400056: rootBone
+    7400000: jump1
+    9500000: //RootNode
+    11100000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: jump1
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 20
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: rootBone
+        weight: 1
+      - path: rootBone/back1
+        weight: 1
+      - path: rootBone/back1/back2
+        weight: 1
+      - path: rootBone/back1/back2/back3
+        weight: 1
+      - path: rootBone/back1/back2/back3/back4
+        weight: 1
+      - path: rootBone/back1/back2/back3/back4/leftShoulder
+        weight: 1
+      - path: rootBone/back1/back2/back3/back4/leftShoulder/leftHand1
+        weight: 1
+      - path: rootBone/back1/back2/back3/back4/leftShoulder/leftHand1/leftHand2
+        weight: 1
+      - path: rootBone/back1/back2/back3/back4/leftShoulder/leftHand1/leftHand2/leftWrist
+        weight: 1
+      - path: rootBone/back1/back2/back3/back4/leftShoulder/leftHand1/leftHand2/leftWrist/leftFingers
+        weight: 1
+      - path: rootBone/back1/back2/back3/back4/leftShoulder/leftHand1/leftHand2/leftWrist/leftThumb
+        weight: 1
+      - path: rootBone/back1/back2/back3/back4/neck1
+        weight: 1
+      - path: rootBone/back1/back2/back3/back4/neck1/neck2
+        weight: 1
+      - path: rootBone/back1/back2/back3/back4/neck1/neck2/mouth
+        weight: 1
+      - path: rootBone/back1/back2/back3/back4/rightShoulder
+        weight: 1
+      - path: rootBone/back1/back2/back3/back4/rightShoulder/rightHand1
+        weight: 1
+      - path: rootBone/back1/back2/back3/back4/rightShoulder/rightHand1/rightHand2
+        weight: 1
+      - path: rootBone/back1/back2/back3/back4/rightShoulder/rightHand1/rightHand2/rightWrist
+        weight: 1
+      - path: rootBone/back1/back2/back3/back4/rightShoulder/rightHand1/rightHand2/rightWrist/rightFingers
+        weight: 1
+      - path: rootBone/back1/back2/back3/back4/rightShoulder/rightHand1/rightHand2/rightWrist/rightThumb
+        weight: 1
+      - path: rootBone/leftLeg1
+        weight: 1
+      - path: rootBone/leftLeg1/leftLeg2
+        weight: 1
+      - path: rootBone/leftLeg1/leftLeg2/leftFoot1
+        weight: 1
+      - path: rootBone/leftLeg1/leftLeg2/leftFoot1/leftFoot2
+        weight: 1
+      - path: rootBone/rightLeg1
+        weight: 1
+      - path: rootBone/rightLeg1/rightLeg2
+        weight: 1
+      - path: rootBone/rightLeg1/rightLeg2/rightFoot1
+        weight: 1
+      - path: rootBone/rightLeg1/rightLeg2/rightFoot1/rightFoot2
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  additionalBone: 0
+  userData: 

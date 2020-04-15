@@ -1,0 +1,158 @@
+fileFormatVersion: 2
+guid: 4e214d85c9815e349a2f92c33184da2b
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: head
+    100002: hvost
+    100004: knee
+    100006: kuritsa
+    100008: //RootNode
+    100010: leftFoot
+    100012: leftFoot1
+    100014: leftHand
+    100016: leftLeg
+    100018: leftLeg1
+    100020: rightFoot
+    100022: rightFoot1
+    100024: rightHand
+    100026: rightLeg
+    100028: rightLeg1
+    100030: spina
+    100032: spina1
+    400000: head
+    400002: hvost
+    400004: knee
+    400006: kuritsa
+    400008: //RootNode
+    400010: leftFoot
+    400012: leftFoot1
+    400014: leftHand
+    400016: leftLeg
+    400018: leftLeg1
+    400020: rightFoot
+    400022: rightFoot1
+    400024: rightHand
+    400026: rightLeg
+    400028: rightLeg1
+    400030: spina
+    400032: spina1
+    4300000: kuritsa
+    7400000: kuritsaFastRun
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: kuritsa
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: kuritsaFastRun
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 20
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: kuritsa
+        weight: 1
+      - path: spina
+        weight: 1
+      - path: spina/hvost
+        weight: 1
+      - path: spina/leftHand
+        weight: 1
+      - path: spina/leftLeg
+        weight: 1
+      - path: spina/leftLeg/leftLeg1
+        weight: 1
+      - path: spina/leftLeg/leftLeg1/leftFoot
+        weight: 1
+      - path: spina/leftLeg/leftLeg1/leftFoot/leftFoot1
+        weight: 1
+      - path: spina/rightHand
+        weight: 1
+      - path: spina/rightLeg
+        weight: 1
+      - path: spina/rightLeg/rightLeg1
+        weight: 1
+      - path: spina/rightLeg/rightLeg1/rightFoot
+        weight: 1
+      - path: spina/rightLeg/rightLeg1/rightFoot/rightFoot1
+        weight: 1
+      - path: spina/spina1
+        weight: 1
+      - path: spina/spina1/knee
+        weight: 1
+      - path: spina/spina1/knee/head
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  additionalBone: 0
+  userData: 

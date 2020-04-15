@@ -1,0 +1,274 @@
+fileFormatVersion: 2
+guid: d4512470b03867740940bc4f3cf49835
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: Bone065
+    100002: Bone066
+    100004: Bone067
+    100006: Bone068
+    100008: Bone069
+    100010: Bone070
+    100012: Bone071
+    100014: Bone072
+    100016: Bone073
+    100018: Bone074
+    100020: Bone075
+    100022: Bone076
+    100024: Bone077
+    100026: Bone078
+    100028: Bone079
+    100030: Bone080
+    100032: Bone081
+    100034: Bone082
+    100036: Bone083
+    100038: Bone084
+    100040: Bone085
+    100042: Bone086
+    100044: Bone087
+    100046: Bone088
+    100048: Bone089
+    100050: Bone090
+    100052: Bone091
+    100054: Bone092
+    100056: gera
+    100058: //RootNode
+    100060: IK Chain001
+    100062: IK Chain002
+    100064: back1
+    100066: back2
+    100068: back3
+    100070: back4
+    100072: leftFingers
+    100074: leftFoot1
+    100076: leftFoot2
+    100078: leftHand1
+    100080: leftHand2
+    100082: leftLeg1
+    100084: leftLeg2
+    100086: leftShoulder
+    100088: leftThumb
+    100090: leftWrist
+    100092: mouth
+    100094: neck1
+    100096: neck2
+    100098: rightFingers
+    100100: rightFoot1
+    100102: rightFoot2
+    100104: rightHand1
+    100106: rightHand2
+    100108: rightLeg1
+    100110: rightLeg2
+    100112: rightShoulder
+    100114: rightThumb
+    100116: rightWrist
+    100118: rootBone
+    400000: Bone065
+    400002: Bone066
+    400004: Bone067
+    400006: Bone068
+    400008: Bone069
+    400010: Bone070
+    400012: Bone071
+    400014: Bone072
+    400016: Bone073
+    400018: Bone074
+    400020: Bone075
+    400022: Bone076
+    400024: Bone077
+    400026: Bone078
+    400028: Bone079
+    400030: Bone080
+    400032: Bone081
+    400034: Bone082
+    400036: Bone083
+    400038: Bone084
+    400040: Bone085
+    400042: Bone086
+    400044: Bone087
+    400046: Bone088
+    400048: Bone089
+    400050: Bone090
+    400052: Bone091
+    400054: Bone092
+    400056: gera
+    400058: //RootNode
+    400060: IK Chain001
+    400062: IK Chain002
+    400064: back1
+    400066: back2
+    400068: back3
+    400070: back4
+    400072: leftFingers
+    400074: leftFoot1
+    400076: leftFoot2
+    400078: leftHand1
+    400080: leftHand2
+    400082: leftLeg1
+    400084: leftLeg2
+    400086: leftShoulder
+    400088: leftThumb
+    400090: leftWrist
+    400092: mouth
+    400094: neck1
+    400096: neck2
+    400098: rightFingers
+    400100: rightFoot1
+    400102: rightFoot2
+    400104: rightHand1
+    400106: rightHand2
+    400108: rightLeg1
+    400110: rightLeg2
+    400112: rightShoulder
+    400114: rightThumb
+    400116: rightWrist
+    400118: rootBone
+    4300000: gera
+    7400000: jump
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: gera
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: jump
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 16
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bone092
+        weight: 1
+      - path: Bone092/Bone065
+        weight: 1
+      - path: Bone092/Bone065/Bone066
+        weight: 1
+      - path: Bone092/Bone065/Bone066/Bone067
+        weight: 1
+      - path: Bone092/Bone065/Bone066/Bone067/Bone068
+        weight: 1
+      - path: Bone092/Bone065/Bone066/Bone067/Bone068/Bone069
+        weight: 1
+      - path: Bone092/Bone065/Bone066/Bone067/Bone068/Bone069/Bone070
+        weight: 1
+      - path: Bone092/Bone065/Bone066/Bone067/Bone068/Bone069/Bone070/Bone071
+        weight: 1
+      - path: Bone092/Bone065/Bone066/Bone067/Bone068/Bone072
+        weight: 1
+      - path: Bone092/Bone065/Bone066/Bone067/Bone068/Bone072/Bone073
+        weight: 1
+      - path: Bone092/Bone065/Bone066/Bone067/Bone068/Bone072/Bone073/Bone074
+        weight: 1
+      - path: Bone092/Bone065/Bone066/Bone067/Bone068/Bone072/Bone073/Bone074/Bone086
+        weight: 1
+      - path: Bone092/Bone065/Bone066/Bone067/Bone068/Bone072/Bone073/Bone074/Bone086/Bone087
+        weight: 1
+      - path: Bone092/Bone065/Bone066/Bone067/Bone068/Bone072/Bone073/Bone074/Bone086/Bone088
+        weight: 1
+      - path: Bone092/Bone065/Bone066/Bone067/Bone068/Bone075
+        weight: 1
+      - path: Bone092/Bone065/Bone066/Bone067/Bone068/Bone075/Bone076
+        weight: 1
+      - path: Bone092/Bone065/Bone066/Bone067/Bone068/Bone075/Bone076/Bone077
+        weight: 1
+      - path: Bone092/Bone065/Bone066/Bone067/Bone068/Bone075/Bone076/Bone077/Bone091
+        weight: 1
+      - path: Bone092/Bone065/Bone066/Bone067/Bone068/Bone075/Bone076/Bone077/Bone091/Bone089
+        weight: 1
+      - path: Bone092/Bone065/Bone066/Bone067/Bone068/Bone075/Bone076/Bone077/Bone091/Bone090
+        weight: 1
+      - path: Bone092/Bone078
+        weight: 1
+      - path: Bone092/Bone078/Bone079
+        weight: 1
+      - path: Bone092/Bone078/Bone079/Bone080
+        weight: 1
+      - path: Bone092/Bone078/Bone079/Bone080/Bone081
+        weight: 1
+      - path: Bone092/Bone085
+        weight: 1
+      - path: Bone092/Bone085/Bone082
+        weight: 1
+      - path: Bone092/Bone085/Bone082/Bone083
+        weight: 1
+      - path: Bone092/Bone085/Bone082/Bone083/Bone084
+        weight: 1
+      - path: gera
+        weight: 1
+      - path: IK Chain001
+        weight: 1
+      - path: IK Chain002
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  additionalBone: 0
+  userData: 

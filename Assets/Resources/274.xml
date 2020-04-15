@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Information>
+  <MaxScore>0</MaxScore>
+  <Pers>rabbit</Pers>
+  <OpenedPers>101000</OpenedPers>
+  <Money>0</Money>
+  <Level>1</Level>
+  <Scooters>0</Scooters>
+  <Attempts>0</Attempts>
+  <Ducks>0</Ducks>
+  <Gliders>0</Gliders>
+  <StartRoute>True</StartRoute>
+  <Night>False</Night>
+  <SoundEnabled>True</SoundEnabled>
+  <MusicEnabled>True</MusicEnabled>
+  <Cloth>
+    <rabbit opened="0" head="none" material="none" body="none" legs="none" />
+    <ball opened="0" head="none" material="none" body="none" legs="none" />
+    <gera opened="0" head="none" material="none" body="none" legs="none" />
+    <dog opened="0" head="none" material="none" body="none" legs="none" />
+    <kuritsa opened="0" head="none" material="none" body="none" legs="none" />
+    <Bear opened="0" head="none" material="none" body="none" legs="none" />
+    <Koza opened="0" head="none" material="none" body="none" legs="none" />
+  </Cloth>
+  <BonusesDuration jumpBonus="10" timeBonus="10" nonStop="20" glider="20" />
+</Information>

@@ -1,0 +1,632 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<AnimalRun>
+  <Podstavi count="3">
+    <!--///////////////////////////////////////////////////////////////////////////////////////-->
+    <!--///////////////////////////Подставы в потоке едущих машин//////////////////////////////-->
+    <!--///////////////////////////////////////////////////////////////////////////////////////-->
+    <SpawnSequence count="5" free="true">
+       <SpawnData>
+        <CarData line="0" count="1">
+          <Car speed="60" dist="35.7" type="mega" />
+        </CarData>
+        <CarData line="1" count="2">
+          <Car speed="50" dist="20" type="mega" />
+          <Car speed="50" dist="80" type="mega" />
+        </CarData>
+        <CarData line="2" count="1">
+          <Car speed="50" dist="60" type="mega" />
+        </CarData>
+        <CarData line="3" count="2">
+          <Car speed="55" dist="17" type="mega" />
+          <Car speed="60" dist="100" type="car" bonusId="3" />
+        </CarData>
+      </SpawnData><!-- хорошо -->
+      <SpawnData time="0">
+        <CarData line="0" count="1">
+          <Car speed="60" dist="20" type="big" />
+        </CarData>
+        <CarData line="1" count="1">
+          <Car speed="50" dist="30" type="car" />
+        </CarData>
+        <CarData line="2" count="1">
+          <Car speed="50" dist="5" type="mega" />
+        </CarData>
+        <CarData line="3" count="1">
+          <Car speed="50" dist="7" type="mega" />
+        </CarData>
+      </SpawnData><!-- хорошо -->
+      <SpawnData time="0">
+        <CarData line="0" count="1">
+          <Car speed="55" dist="20" type="mega" />
+        </CarData>
+        <CarData line="1" count="1">
+          <Car speed="50" dist="20" type="mega" />
+        </CarData>
+        <CarData line="2" count="2">
+          <Car speed="55" dist="28" type="car" />
+          <Car speed="45" dist="60" type="mega" />
+        </CarData>
+        <CarData line="3" count="1">
+          <Car speed="50" dist="17" type="mega" />
+        </CarData>
+      </SpawnData><!-- хорошо -->
+      <SpawnData time="0">
+        <CarData line="0" count="1">
+          <Car speed="55" dist="60" type="car" />
+        </CarData>
+        <CarData line="1" count="1">
+          <Car speed="30" dist="10" type="mega" />
+        </CarData>
+        <CarData line="2" count="1">
+          <Car speed="35" dist="15" type="mega" />
+        </CarData>
+        <CarData line="3" count="1">
+          <Car speed="40" dist="20" type="mega" />
+        </CarData>
+      </SpawnData><!-- хорошо -->
+      <SpawnData time="0">
+        <CarData line="0" count="1">
+          <Car speed="43" dist="20" type="mega" />
+        </CarData>
+        <CarData line="1" count="1">
+          <Car speed="40" dist="15" type="big" />
+        </CarData>
+        <CarData line="2" count="1">
+          <Car speed="37" dist="10" type="mega" />
+        </CarData>
+        <CarData line="3" count="2">
+          <Car speed="50" dist="60" type="car" />
+          <Car speed="45" dist="80" type="mega" />
+        </CarData>
+      </SpawnData>
+    </SpawnSequence><!-- хорошо -->
+    <!--///////////////////////////////////////////////////////////////////////////////////////-->
+    <!--///////////////////////////////////////////Авария//////////////////////////////////////-->
+    <!--///////////////////////////////////////////////////////////////////////////////////////-->
+    <SpawnSequence count="8" free="false">
+      <SpawnData time="12">
+        <CarData line="0" count="13">
+          <Car speed="0" dist="20" type="mega" />
+          <Car speed="0" dist="33" type="mega" />
+          <Car speed="0" dist="46" type="mega" />
+          <Car speed="0" dist="59" type="mega" />
+          <Car speed="0" dist="72" type="car" />
+          <Car speed="0" dist="98" type="mega" />
+          <Car speed="0" dist="111" type="mega" />
+          <Car speed="0" dist="124" type="mega" />
+          <Car speed="0" dist="77" type="car" />
+          <Car speed="0" dist="137" type="big" />
+          <Car speed="0" dist="82" type="car" />
+          <Car speed="0" dist="87" type="car" />
+          <Car speed="0" dist="92" type="car" />
+        </CarData>
+        <CarData line="1" count="13">
+          <Car speed="0" dist="18" type="mega" />
+          <Car speed="0" dist="65" type="mega" />
+          <Car speed="0" dist="93" type="mega" />
+          <Car speed="0" dist="106" type="mega" />
+          <Car speed="0" dist="33" type="car" />
+          <Car speed="0" dist="50" type="car" />
+          <Car speed="0" dist="43" type="car" />
+          <Car speed="0" dist="78" type="car" />
+          <Car speed="0" dist="83" type="car" />
+          <Car speed="0" dist="88" type="car" />
+          <Car speed="0" dist="38" type="car" />
+          <Car speed="0" dist="55" type="car" />
+          <Car speed="0" dist="60" type="car" />
+        </CarData>
+        <CarData line="2" count="14">
+          <Car speed="0" dist="74" type="big" />
+          <Car speed="0" dist="83" type="mega" />
+          <Car speed="0" dist="96" type="mega" />
+          <Car speed="0" dist="61" type="mega" />
+          <Car speed="0" dist="11" type="car" />
+          <Car speed="0" dist="16" type="car" />
+          <Car speed="0" dist="21" type="car" />
+          <Car speed="0" dist="26" type="car" />
+          <Car speed="0" dist="31" type="car" />
+          <Car speed="0" dist="36" type="car" />
+          <Car speed="0" dist="41" type="car" />
+          <Car speed="0" dist="46" type="car" />
+          <Car speed="0" dist="51" type="car" />
+          <Car speed="0" dist="56" type="car" />
+        </CarData>
+        <CarData line="3" count="16">
+          <Car speed="0" dist="32" type="mega" />
+          <Car speed="0" dist="45" type="mega" />
+          <Car speed="0" dist="58" type="mega" />
+          <Car speed="0" dist="72" type="car" />
+          <Car speed="0" dist="77" type="car" />
+          <Car speed="0" dist="92" type="mega" />
+          <Car speed="0" dist="105" type="mega" />
+          <Car speed="0" dist="11" type="car" />
+          <Car speed="0" dist="16" type="car" />
+          <Car speed="0" dist="21" type="car" />
+          <Car speed="0" dist="26" type="car" />
+          <Car speed="0" dist="82" type="car" />
+          <Car speed="0" dist="87" type="car" />
+          <Car speed="0" dist="118" type="mega" />
+          <Car speed="0" dist="131" type="mega" />
+          <Car speed="0" dist="144" type="big" bonusId="2" />
+        </CarData>
+      </SpawnData><!-- хорошо -->
+      <SpawnData time="9">
+        <CarData line="0" count="7">
+          <Car speed="0" dist="20" type="mega" />
+          <Car speed="0" dist="33" type="mega" />
+          <Car speed="0" dist="46" type="mega" />
+          <Car speed="0" dist="59" type="big" />
+          <Car speed="0" dist="68" type="big" />
+          <Car speed="0" dist="77" type="car" />
+          <Car speed="0" dist="82" type="car" />
+        </CarData>
+        <CarData line="1" count="10">
+          <Car speed="0" dist="18" type="mega" />
+          <Car speed="0" dist="31" type="mega" />
+          <Car speed="0" dist="46" type="car" />
+          <Car speed="0" dist="51" type="car" />
+          <Car speed="0" dist="56" type="car" />
+          <Car speed="0" dist="61" type="car" />
+          <Car speed="0" dist="66" type="car" />
+          <Car speed="0" dist="71" type="big" />
+          <Car speed="0" dist="80" type="big" />
+          <Car speed="0" dist="89" type="big" />
+        </CarData>
+        <CarData line="2" count="14">
+          <Car speed="0" dist="34" type="car" />
+          <Car speed="0" dist="39" type="car" />
+          <Car speed="0" dist="44" type="car" />
+          <Car speed="0" dist="49" type="car" />
+          <Car speed="0" dist="54" type="car" />
+          <Car speed="0" dist="59" type="car" />
+          <Car speed="0" dist="64" type="car" />
+          <Car speed="0" dist="69" type="big" />
+          <Car speed="0" dist="78" type="car" />
+          <Car speed="0" dist="83" type="car" />
+          <Car speed="0" dist="88" type="car" />
+          <Car speed="0" dist="93" type="car" />
+          <Car speed="0" dist="98" type="car" />
+          <Car speed="0" dist="108" type="moto" />
+        </CarData>
+        <CarData line="3" count="12">
+          <Car speed="0" dist="33" type="big" />
+          <Car speed="0" dist="42" type="car" />
+          <Car speed="0" dist="47" type="car" />
+          <Car speed="0" dist="52" type="big" />
+          <Car speed="0" dist="61" type="car" />
+          <Car speed="0" dist="81" type="car" />
+          <Car speed="0" dist="96" type="big" />
+          <Car speed="0" dist="71" type="moto" />
+          <Car speed="0" dist="66" type="car" />
+          <Car speed="0" dist="76" type="moto" />
+          <Car speed="0" dist="86" type="car" />
+          <Car speed="0" dist="91" type="car" />
+        </CarData>
+      </SpawnData><!-- хорошо -->
+      <SpawnData time="9">
+        <CarData line="0" count="3">
+          <Car speed="5" dist="55" type="mega" />
+          <Car speed="5" dist="68" type="big" />
+          <Car speed="5" dist="77" type="big" />
+        </CarData>
+        <CarData line="1" count="7">
+          <Car speed="0" dist="18" type="mega" />
+          <Car speed="0" dist="32" type="car" />
+          <Car speed="0" dist="37" type="car" />
+          <Car speed="0" dist="42" type="car" />
+          <Car speed="0" dist="47" type="car" />
+          <Car speed="0" dist="52" type="car" />
+          <Car speed="0" dist="68" type="moto" />
+        </CarData>
+        <CarData line="2" count="5">
+          <Car speed="0" dist="20" type="mega" />
+          <Car speed="0" dist="33" type="big" />
+          <Car speed="0" dist="42" type="big" />
+          <Car speed="0" dist="51" type="car" />
+          <Car speed="0" dist="56" type="car" />
+        </CarData>
+        <CarData line="3" count="10">
+          <Car speed="0" dist="26" type="car" />
+          <Car speed="0" dist="21" type="car" />
+          <Car speed="0" dist="17" type="car" />
+          <Car speed="0" dist="46" type="car" />
+          <Car speed="0" dist="51" type="car" />
+          <Car speed="0" dist="56" type="car" />
+          <Car speed="0" dist="61" type="mega" bonusId="1" />
+          <Car speed="0" dist="12" type="car" />
+          <Car speed="0" dist="31" type="car" />
+          <Car speed="0" dist="36" type="big" />
+        </CarData>
+      </SpawnData><!-- хорошо -->
+      <SpawnData time="9">
+        <CarData line="0" count="6">
+          <Car speed="0" dist="16" type="car" />
+          <Car speed="0" dist="21" type="car" />
+          <Car speed="0" dist="26" type="mega" />
+          <Car speed="0" dist="39" type="big" />
+          <Car speed="0" dist="48" type="big" />
+          <Car speed="0" dist="57" type="big" />
+        </CarData>
+        <CarData line="1" count="7">
+          <Car speed="0" dist="18" type="mega" />
+          <Car speed="0" dist="33" type="car" />
+          <Car speed="0" dist="38" type="car" />
+          <Car speed="0" dist="43" type="car" />
+          <Car speed="0" dist="48" type="car" />
+          <Car speed="0" dist="53" type="mega" />
+          <Car speed="0" dist="80" type="empty" bonusId="6" />
+        </CarData>
+        <CarData line="2" count="7">
+          <Car speed="0" dist="30" type="moto" />
+          <Car speed="0" dist="35" type="moto" />
+          <Car speed="0" dist="40" type="car" />
+          <Car speed="0" dist="45" type="car" />
+          <Car speed="0" dist="22.8" type="car" />
+          <Car speed="0" dist="13" type="car" />
+          <Car speed="0" dist="18" type="car" />
+        </CarData>
+        <CarData line="3" count="7">
+          <Car speed="0" dist="26" type="mega" />
+          <Car speed="0" dist="41" type="car" />
+          <Car speed="0" dist="46" type="car" />
+          <Car speed="0" dist="51" type="car" />
+          <Car speed="0" dist="16" type="car" />
+          <Car speed="0" dist="21" type="car" />
+          <Car speed="0" dist="11" type="car" />
+        </CarData>
+      </SpawnData><!-- хорошо -->
+      <SpawnData time="9">
+        <CarData line="0" count="13">
+          <Car speed="0" dist="16" type="car" />
+          <Car speed="0" dist="21" type="car" />
+          <Car speed="0" dist="26" type="car" />
+          <Car speed="0" dist="31" type="car" />
+          <Car speed="0" dist="36" type="car" />
+          <Car speed="0" dist="41" type="car" />
+          <Car speed="0" dist="46" type="car" />
+          <Car speed="0" dist="51" type="car" />
+          <Car speed="0" dist="71" type="car" />
+          <Car speed="0" dist="56" type="moto" />
+          <Car speed="0" dist="61" type="moto" />
+          <Car speed="0" dist="76" type="car" />
+          <Car speed="0" dist="112" type="empty" bonusId="5" />
+        </CarData>
+        <CarData line="1" count="10">
+          <Car speed="0" dist="18" type="mega" />
+          <Car speed="0" dist="33" type="car" />
+          <Car speed="0" dist="38" type="car" />
+          <Car speed="0" dist="43" type="car" />
+          <Car speed="0" dist="48" type="big" />
+          <Car speed="0" dist="57" type="car" />
+          <Car speed="0" dist="62" type="car" />
+          <Car speed="0" dist="67" type="car" />
+          <Car speed="0" dist="72" type="mega" />
+          <Car speed="0" dist="85" type="mega" />
+        </CarData>
+        <CarData line="2" count="12">
+          <Car speed="0" dist="75" type="car" />
+          <Car speed="0" dist="85" type="car" />
+          <Car speed="0" dist="80" type="car" />
+          <Car speed="0" dist="28" type="mega" />
+          <Car speed="0" dist="41" type="car" />
+          <Car speed="0" dist="46" type="car" />
+          <Car speed="0" dist="51" type="car" />
+          <Car speed="0" dist="56" type="car" />
+          <Car speed="0" dist="60" type="mega" />
+          <Car speed="0" dist="13" type="car" />
+          <Car speed="0" dist="18" type="car" />
+          <Car speed="0" dist="23" type="car" />
+        </CarData>
+        <CarData line="3" count="9">
+          <Car speed="0" dist="38" type="mega" />
+          <Car speed="0" dist="23" type="car" />
+          <Car speed="0" dist="28" type="car" />
+          <Car speed="0" dist="33" type="car" />
+          <Car speed="0" dist="50" type="mega" />
+          <Car speed="0" dist="63" type="big" />
+          <Car speed="0" dist="72" type="car" />
+          <Car speed="0" dist="77" type="car" />
+          <Car speed="0" dist="82" type="big" />
+        </CarData>
+      </SpawnData><!-- хорошо -->
+      <SpawnData time="7">
+        <CarData line="0" count="7">
+          <Car speed="0" dist="16" type="car" />
+          <Car speed="0" dist="21" type="car" />
+          <Car speed="0" dist="26" type="car" />
+          <Car speed="0" dist="31" type="car" />
+          <Car speed="0" dist="36" type="big" />
+          <Car speed="0" dist="45" type="big" />
+          <Car speed="0" dist="64" type="empty" bonusId="4" />
+        </CarData>
+        <CarData line="1" count="5">
+          <Car speed="0" dist="18" type="big" />
+          <Car speed="0" dist="30" type="moto" />
+          <Car speed="0" dist="35" type="moto" />
+          <Car speed="0" dist="42" type="car" />
+          <Car speed="0" dist="47" type="car" />
+        </CarData>
+        <CarData line="2" count="6">
+          <Car speed="0" dist="18" type="car" />
+          <Car speed="0" dist="23" type="car" />
+          <Car speed="0" dist="28" type="car" />
+          <Car speed="0" dist="33" type="big" />
+          <Car speed="0" dist="42" type="big" />
+          <Car speed="0" dist="13" type="car" />
+        </CarData>
+        <CarData line="3" count="6">
+          <Car speed="0" dist="18" type="moto" />
+          <Car speed="0" dist="23" type="moto" />
+          <Car speed="0" dist="33" type="car" />
+          <Car speed="0" dist="38" type="car" />
+          <Car speed="0" dist="43" type="car" />
+          <Car speed="0" dist="100" type="empty" bonusId="6" />
+        </CarData>
+      </SpawnData><!-- хорошо -->
+      <SpawnData time="7">
+        <CarData line="0" count="8">
+          <Car speed="0" dist="15" type="car" />
+          <Car speed="0" dist="20" type="car" />
+          <Car speed="0" dist="27" type="moto" />
+          <Car speed="0" dist="32" type="moto" />
+          <Car speed="0" dist="37" type="car" />
+          <Car speed="0" dist="42" type="moto" />
+          <Car speed="0" dist="47" type="moto" />
+          <Car speed="0" dist="56" type="mega" />
+        </CarData>
+        <CarData line="1" count="3">
+          <Car speed="0" dist="18" type="mega" />
+          <Car speed="0" dist="31" type="car" />
+          <Car speed="0" dist="36" type="car" />
+        </CarData>
+        <CarData line="2" count="6">
+          <Car speed="0" dist="14" type="mega" />
+          <Car speed="0" dist="27" type="mega" />
+          <Car speed="0" dist="40" type="car" />
+          <Car speed="0" dist="45" type="car" />
+          <Car speed="0" dist="50" type="car" />
+          <Car speed="0" dist="81" type="empty" bonusId="2" />
+        </CarData>
+        <CarData line="3" count="6">
+          <Car speed="0" dist="18" type="moto" />
+          <Car speed="0" dist="23" type="car" />
+          <Car speed="0" dist="28" type="car" />
+          <Car speed="0" dist="33" type="car" />
+          <Car speed="0" dist="38" type="big" />
+          <Car speed="0" dist="47" type="car" />
+        </CarData>
+      </SpawnData><!-- хорошо -->
+      <SpawnData time="7">
+        <CarData line="0" count="7">
+          <Car speed="0" dist="16" type="car" />
+          <Car speed="0" dist="21" type="car" />
+          <Car speed="0" dist="26" type="car" />
+          <Car speed="0" dist="33" type="moto" />
+          <Car speed="0" dist="38" type="moto" />
+          <Car speed="0" dist="54" type="megamega" />
+          <Car speed="0" dist="100" type="empty" bonusId="4" />
+        </CarData>
+        <CarData line="1" count="3">
+          <Car speed="0" dist="18" type="mega" />
+          <Car speed="0" dist="33" type="car" />
+          <Car speed="0" dist="38" type="car" />
+        </CarData>
+        <CarData line="2" count="6">
+          <Car speed="0" dist="15" type="car" />
+          <Car speed="0" dist="20" type="mega" />
+          <Car speed="5" dist="110" type="car" />
+          <Car speed="0" dist="10" type="car" />
+          <Car speed="0" dist="33" type="mega" />
+          <Car speed="0" dist="46" type="car" />
+        </CarData>
+        <CarData line="3" count="6">
+          <Car speed="0" dist="12" type="car" />
+          <Car speed="0" dist="17" type="car" />
+          <Car speed="0" dist="27" type="big" />
+          <Car speed="0" dist="36" type="big" />
+          <Car speed="0" dist="45" type="mega" bonusId="6" />
+          <Car speed="0" dist="22" type="car" />
+        </CarData>
+      </SpawnData><!-- хорошо -->
+      <!--///////////////////////////////////////////////////////////////////////////////////////-->
+      <!--/////////////////////////////////////////8/////////////////////////////////////////////-->
+      <!--///////////////////////////////////////////////////////////////////////////////////////-->
+    </SpawnSequence>
+    <!--///////////////////////////////////////////////////////////////////////////////////////-->
+    <!--/////////////////////////////////////////Светофор//////////////////////////////////////-->
+    <!--///////////////////////////////////////////////////////////////////////////////////////-->
+    <SpawnSequence count="4">
+      <SpawnData time="7">
+        <CarData line="0" count="2">
+          <Car speed="0" dist="7" type="big" />
+          <Car speed="0" dist="16" type="big" />
+        </CarData>
+        <CarData line="1" count="3">
+          <Car speed="0" dist="7" type="car" />
+          <Car speed="0" dist="15" type="moto" />
+          <Car speed="0" dist="35" type="empty" bonusId="2" />
+        </CarData>
+        <CarData line="2" count="4">
+          <Car speed="0" dist="7" type="car" />
+          <Car speed="0" dist="12" type="car" />
+          <Car speed="0" dist="17" type="big" />
+          <Car speed="0" dist="26" type="car" />
+        </CarData>
+        <CarData line="3" count="2">
+          <Car speed="0" dist="7" type="big" />
+          <Car speed="0" dist="16" type="big" />
+        </CarData>
+      </SpawnData>
+      <SpawnData time="7">
+        <CarData line="0" count="5">
+          <Car speed="0" dist="23" type="moto" />
+          <Car speed="0" dist="30" type="moto" />
+          <Car speed="0" dist="45" type="big" />
+          <Car speed="0" dist="7" type="car" />
+          <Car speed="0" dist="12" type="car" />
+        </CarData>
+        <CarData line="1" count="1">
+          <Car speed="0" dist="7" type="megamega" />
+        </CarData>
+        <CarData line="2" count="4">
+          <Car speed="0" dist="7" type="car" />
+          <Car speed="0" dist="12" type="car" />
+          <Car speed="0" dist="17" type="car" />
+          <Car speed="0" dist="22" type="moto" />
+        </CarData>
+        <CarData line="3" count="2">
+          <Car speed="0" dist="7" type="big" />
+          <Car speed="0" dist="16" type="big" />
+        </CarData>
+      </SpawnData>
+      <SpawnData time="8">
+        <CarData line="0" count="5">
+          <Car speed="0" dist="6.6" type="car" />
+          <Car speed="0" dist="11.6" type="car" />
+          <Car speed="0" dist="16.6" type="car" />
+          <Car speed="0" dist="21.6" type="megamega" />
+          <Car speed="0" dist="51.1" type="moto" />
+        </CarData>
+        <CarData line="1" count="3">
+          <Car speed="0" dist="7" type="mega" />
+          <Car speed="0" dist="20" type="mega" />
+          <Car speed="0" dist="43" type="moto" />
+        </CarData>
+        <CarData line="2" count="3">
+          <Car speed="0" dist="7" type="mega" />
+          <Car speed="0" dist="20" type="mega" />
+          <Car speed="0" dist="37.5" type="moto" />
+        </CarData>
+        <CarData line="3" count="6">
+          <Car speed="0" dist="7" type="car" />
+          <Car speed="0" dist="12" type="car" />
+          <Car speed="0" dist="17" type="car" />
+          <Car speed="0" dist="22" type="mega" />
+          <Car speed="0" dist="35" type="car" />
+          <Car speed="0" dist="40" type="car" />
+        </CarData>
+      </SpawnData>
+      <SpawnData time="12">
+        <CarData line="0" count="5">
+          <Car speed="0" dist="6.6" type="car" />
+          <Car speed="0" dist="11.6" type="car" />
+          <Car speed="0" dist="16.6" type="car" />
+          <Car speed="0" dist="21.6" type="megamega" />
+          <Car speed="0" dist="57.5" type="moto" />
+        </CarData>
+        <CarData line="1" count="3">
+          <Car speed="0" dist="7" type="mega" />
+          <Car speed="0" dist="20" type="mega" />
+          <Car speed="0" dist="47.5" type="moto" />
+        </CarData>
+        <CarData line="2" count="3">
+          <Car speed="0" dist="7" type="mega" />
+          <Car speed="0" dist="20" type="mega" />
+          <Car speed="0" dist="40.9" type="moto" />
+        </CarData>
+        <CarData line="3" count="6">
+          <Car speed="0" dist="7" type="car" />
+          <Car speed="0" dist="12" type="car" />
+          <Car speed="0" dist="17" type="car" />
+          <Car speed="0" dist="22" type="mega" />
+          <Car speed="0" dist="35" type="car" />
+          <Car speed="0" dist="40" type="car" />
+        </CarData>
+      </SpawnData>
+    </SpawnSequence>
+  </Podstavi>
+
+
+
+
+
+  <LesoPodstavi count="1">
+    <ForestSequence count="4" free="false">
+      <SpawnData time="9">
+        <EntityData line="0" count="6">
+          <Entity speed="0" dist="2" type="lift" />
+          <Entity speed="0" dist="10" type="mega" />
+          <Entity speed="0" dist="41" type="Fbig" />
+          <Entity speed="0" dist="70" type="barrier" />
+          <Entity speed="0" dist="32" type="Fbig" />
+          <Entity speed="0" dist="23" type="Fbig" />
+        </EntityData>
+        <EntityData line="1" count="3">
+          <Entity speed="10" dist="80" type="moto" />
+          <Entity speed="10" dist="115" type="car" />
+          <Entity speed="10" dist="146" type="big" />
+        </EntityData>
+        <EntityData line="2" count="6">
+          <Entity speed="0" dist="28" type="lift" />
+          <Entity speed="0" dist="36" type="mega" />
+          <Entity speed="0" dist="49" type="Fbig" bonusId="2" />
+          <Entity speed="0" dist="88" type="empty" bonusId="4" />
+          <Entity speed="0" dist="95" type="barrier" />
+          <Entity speed="0" dist="10" type="barrier" />
+        </EntityData>
+      </SpawnData><!-- хорошо -->
+      <SpawnData time="9">
+        <EntityData line="2" count="6">
+          <Entity speed="0" dist="2" type="lift" />
+          <Entity speed="0" dist="10" type="mega" />
+          <Entity speed="0" dist="41" type="Fbig" />
+          <Entity speed="0" dist="70" type="barrier" />
+          <Entity speed="0" dist="32" type="Fbig" />
+          <Entity speed="0" dist="23" type="Fbig" />
+        </EntityData>
+        <EntityData line="1" count="2">
+          <Entity speed="10" dist="80" type="big" />
+          <Entity speed="10" dist="115" type="megamega" />
+        </EntityData>
+        <EntityData line="0" count="6">
+          <Entity speed="0" dist="28" type="lift" />
+          <Entity speed="0" dist="36" type="mega" />
+          <Entity speed="0" dist="49" type="Fbig" bonusId="6" />
+          <Entity speed="0" dist="88" type="empty" bonusId="2" />
+          <Entity speed="0" dist="95" type="barrier" />
+          <Entity speed="0" dist="10" type="barrier" />
+        </EntityData>
+      </SpawnData><!-- хорошо -->
+      <SpawnData time="9">
+        <EntityData line="0" count="6">
+          <Entity speed="0" dist="7.8" type="barrier" bonusId="1" />
+          <Entity speed="0" dist="69" type="big" />
+          <Entity speed="0" dist="78" type="car" />
+          <Entity speed="0" dist="90" type="empty" bonusId="0" />
+          <Entity speed="0" dist="61" type="lift" />
+          <Entity speed="0" dist="30" type="barrier" />
+        </EntityData>
+        <EntityData line="1" count="1">
+          <Entity speed="70" dist="50" type="empty" />
+        </EntityData>
+        <EntityData line="2" count="7">
+          <Entity speed="0" dist="33" type="Fbig" />
+          <Entity speed="0" dist="42" type="big" bonusId="3" />
+          <Entity speed="0" dist="24" type="lift" />
+          <Entity speed="0" dist="19" type="car" />
+          <Entity speed="0" dist="14" type="car" />
+          <Entity speed="0" dist="110" type="barrier" />
+          <Entity speed="0" dist="80" type="barrier" />
+        </EntityData>
+      </SpawnData><!-- хорошо -->
+      <SpawnData time="7">
+        <EntityData line="0" count="3">
+          <Entity speed="0" dist="0" type="barrier" />
+          <Entity speed="0" dist="4" type="moto" />
+          <Entity speed="0" dist="67" type="big" />
+        </EntityData>
+        <EntityData line="1" count="3">
+          <Entity speed="45" dist="110" type="car" />
+          <Entity speed="38" dist="160" type="car" />
+          <Entity speed="35" dist="230" type="car" />
+        </EntityData>
+        <EntityData line="2" count="4">
+          <Entity speed="0" dist="10" type="lift" />
+          <Entity speed="0" dist="18" type="big" />
+          <Entity speed="0" dist="27" type="Fbig" />
+          <Entity speed="0" dist="70" type="barrier" bonusId="6" />
+        </EntityData>
+      </SpawnData>
+    </ForestSequence>
+  </LesoPodstavi>
+</AnimalRun>

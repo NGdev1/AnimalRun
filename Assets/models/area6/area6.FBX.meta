@@ -1,0 +1,122 @@
+fileFormatVersion: 2
+guid: e32c27e72fbb8dd45b488ad929f993dd
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: house7
+    100004: house8
+    100006: adv
+    100008: bin
+    100010: Kazan
+    100012: ostanovka
+    100014: terem3
+    100016: vorota
+    100018: zabor4
+    100020: zabor3
+    100022: fence3
+    100024: yellowHouse
+    400000: //RootNode
+    400002: house7
+    400004: house8
+    400006: adv
+    400008: bin
+    400010: Kazan
+    400012: ostanovka
+    400014: terem3
+    400016: vorota
+    400018: zabor4
+    400020: zabor3
+    400022: fence3
+    400024: yellowHouse
+    2300000: house7
+    2300002: house8
+    2300004: adv
+    2300006: bin
+    2300008: Kazan
+    2300010: ostanovka
+    2300012: terem3
+    2300014: vorota
+    2300016: zabor4
+    2300018: zabor3
+    2300020: fence3
+    2300022: yellowHouse
+    3300000: house7
+    3300002: house8
+    3300004: adv
+    3300006: bin
+    3300008: Kazan
+    3300010: ostanovka
+    3300012: terem3
+    3300014: vorota
+    3300016: zabor4
+    3300018: zabor3
+    3300020: fence3
+    3300022: yellowHouse
+    4300000: house7
+    4300002: house8
+    4300004: adv
+    4300006: ostanovka
+    4300008: bin
+    4300010: Kazan
+    4300012: terem3
+    4300014: vorota
+    4300016: zabor4
+    4300018: zabor3
+    4300020: fence3
+    4300022: yellowHouse
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  additionalBone: 0
+  userData: 

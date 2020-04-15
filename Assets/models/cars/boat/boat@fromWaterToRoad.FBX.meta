@@ -1,0 +1,191 @@
+fileFormatVersion: 2
+guid: 0d8ee32afa3850d48a03e3edde70ea88
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: boat
+    100002: //RootNode
+    100004: Bone065
+    100006: Bone066
+    100008: Bone067
+    100010: Bone068
+    100012: Bone072
+    100014: Bone073
+    100016: Bone074
+    100018: Bone075
+    100020: Bone076
+    100022: Bone077
+    100024: Bone086
+    100026: Bone091
+    100028: Bone092
+    100030: vesloLeft
+    100032: vesloRight
+    100034: back1
+    100036: back2
+    100038: back3
+    100040: back4
+    100042: leftHand1
+    100044: leftHand2
+    100046: leftShoulder
+    100048: leftWrist
+    100050: rightHand1
+    100052: rightHand2
+    100054: rightShoulder
+    100056: rightWrist
+    100058: rootBone
+    400000: boat
+    400002: //RootNode
+    400004: Bone065
+    400006: Bone066
+    400008: Bone067
+    400010: Bone068
+    400012: Bone072
+    400014: Bone073
+    400016: Bone074
+    400018: Bone075
+    400020: Bone076
+    400022: Bone077
+    400024: Bone086
+    400026: Bone091
+    400028: Bone092
+    400030: vesloLeft
+    400032: vesloRight
+    400034: back1
+    400036: back2
+    400038: back3
+    400040: back4
+    400042: leftHand1
+    400044: leftHand2
+    400046: leftShoulder
+    400048: leftWrist
+    400050: rightHand1
+    400052: rightHand2
+    400054: rightShoulder
+    400056: rightWrist
+    400058: rootBone
+    2300000: boat
+    2300002: vesloLeft
+    2300004: vesloRight
+    3300000: boat
+    3300002: vesloLeft
+    3300004: vesloRight
+    4300000: vesloLeft
+    4300002: vesloRight
+    4300004: boat
+    7400000: fromWaterToRoad
+    9500000: //RootNode
+    11100000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: fromWaterToRoad
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 100
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: boat
+        weight: 1
+      - path: Bone092
+        weight: 1
+      - path: Bone092/Bone065
+        weight: 1
+      - path: Bone092/Bone065/Bone066
+        weight: 1
+      - path: Bone092/Bone065/Bone066/Bone067
+        weight: 1
+      - path: Bone092/Bone065/Bone066/Bone067/Bone068
+        weight: 1
+      - path: Bone092/Bone065/Bone066/Bone067/Bone068/Bone072
+        weight: 1
+      - path: Bone092/Bone065/Bone066/Bone067/Bone068/Bone072/Bone073
+        weight: 1
+      - path: Bone092/Bone065/Bone066/Bone067/Bone068/Bone072/Bone073/Bone074
+        weight: 1
+      - path: Bone092/Bone065/Bone066/Bone067/Bone068/Bone072/Bone073/Bone074/Bone086
+        weight: 1
+      - path: Bone092/Bone065/Bone066/Bone067/Bone068/Bone072/Bone073/Bone074/Bone086/vesloLeft
+        weight: 1
+      - path: Bone092/Bone065/Bone066/Bone067/Bone068/Bone075
+        weight: 1
+      - path: Bone092/Bone065/Bone066/Bone067/Bone068/Bone075/Bone076
+        weight: 1
+      - path: Bone092/Bone065/Bone066/Bone067/Bone068/Bone075/Bone076/Bone077
+        weight: 1
+      - path: Bone092/Bone065/Bone066/Bone067/Bone068/Bone075/Bone076/Bone077/Bone091
+        weight: 1
+      - path: Bone092/Bone065/Bone066/Bone067/Bone068/Bone075/Bone076/Bone077/Bone091/vesloRight
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  additionalBone: 0
+  userData: 

@@ -1,0 +1,146 @@
+fileFormatVersion: 2
+guid: 7fb0f2f3675c1eb4a9d20e9bb7d28ed4
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: duck
+    100004: head
+    100006: hvost
+    100008: leftWing
+    100010: leftWing1
+    100012: leftWing2
+    100014: neck
+    100016: rightWing
+    100018: rightWing1
+    100020: rightWing2
+    100022: spina1
+    100024: spina2
+    400000: //RootNode
+    400002: duck
+    400004: head
+    400006: hvost
+    400008: leftWing
+    400010: leftWing1
+    400012: leftWing2
+    400014: neck
+    400016: rightWing
+    400018: rightWing1
+    400020: rightWing2
+    400022: spina1
+    400024: spina2
+    2300000: //RootNode
+    2300002: duck
+    3300000: //RootNode
+    3300002: duck
+    4300000: duck
+    7400000: Fly
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: duck
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 2
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Fly
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 40
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: duck
+        weight: 1
+      - path: hvost
+        weight: 1
+      - path: hvost/spina1
+        weight: 1
+      - path: hvost/spina1/leftWing
+        weight: 1
+      - path: hvost/spina1/leftWing/leftWing1
+        weight: 1
+      - path: hvost/spina1/leftWing/leftWing1/leftWing2
+        weight: 1
+      - path: hvost/spina1/rightWing
+        weight: 1
+      - path: hvost/spina1/rightWing/rightWing1
+        weight: 1
+      - path: hvost/spina1/rightWing/rightWing1/rightWing2
+        weight: 1
+      - path: hvost/spina1/spina2
+        weight: 1
+      - path: hvost/spina1/spina2/neck
+        weight: 1
+      - path: hvost/spina1/spina2/neck/head
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  additionalBone: 0
+  userData: 

@@ -1,0 +1,349 @@
+fileFormatVersion: 2
+guid: a4fc10730dbf5234a9d7ea1ec6e77cfb
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Bone001
+    100004: Bone002
+    100006: Bone003
+    100008: Bone004
+    100010: Bone005
+    100012: Bone008
+    100014: Bone009
+    100016: Bone010
+    100018: Bone015
+    100020: Bone016
+    100022: Bone017
+    100024: Bone022
+    100026: Bone023
+    100028: Bone026
+    100030: Bone027
+    100032: Bone028
+    100034: Bone030
+    100036: Bone032
+    100038: Bone033
+    100040: Bone034
+    100042: Bone035
+    100044: Bone037
+    100046: Bone038
+    100048: Bone039
+    100050: Bone040
+    100052: Bone041
+    100054: Bone042
+    100056: Bone043
+    100058: Bone044
+    100060: gera
+    100062: Bone057
+    100064: Bone057 1
+    100066: Bone058
+    100068: Bone058 1
+    100070: Bone059
+    100072: Bone060
+    100074: Bone061
+    100076: Bone062
+    100078: Bone063
+    100080: Bone064
+    100082: Bone065
+    100084: Bone066
+    100086: Bone067
+    100088: Bone068
+    100090: Bone069
+    100092: Bone070
+    100094: Bone071
+    100096: Bone072
+    100098: Bone073
+    100100: Bone074
+    100102: Bone075
+    100104: Bone076
+    100106: Bone077
+    100108: Bone078
+    100110: Bone079
+    100112: Bone080
+    100114: Bone081
+    100116: Bone082
+    100118: Bone083
+    100120: Bone084
+    100122: Bone085
+    100124: Bone086
+    100126: Bone087
+    100128: Bone088
+    100130: Bone089
+    100132: Bone090
+    100134: Bone091
+    100136: Bone092
+    100138: back1
+    100140: back2
+    100142: back3
+    100144: back4
+    100146: leftFingers
+    100148: leftFoot1
+    100150: leftFoot2
+    100152: leftHand1
+    100154: leftHand2
+    100156: leftLeg1
+    100158: leftLeg2
+    100160: leftShoulder
+    100162: leftThumb
+    100164: leftWrist
+    100166: mouth
+    100168: neck1
+    100170: neck2
+    100172: rightFingers
+    100174: rightFoot1
+    100176: rightFoot2
+    100178: rightHand1
+    100180: rightHand2
+    100182: rightLeg1
+    100184: rightLeg2
+    100186: rightShoulder
+    100188: rightThumb
+    100190: rightWrist
+    100192: rootBone
+    400000: //RootNode
+    400002: Bone001
+    400004: Bone002
+    400006: Bone003
+    400008: Bone004
+    400010: Bone005
+    400012: Bone008
+    400014: Bone009
+    400016: Bone010
+    400018: Bone015
+    400020: Bone016
+    400022: Bone017
+    400024: Bone022
+    400026: Bone023
+    400028: Bone026
+    400030: Bone027
+    400032: Bone028
+    400034: Bone030
+    400036: Bone032
+    400038: Bone033
+    400040: Bone034
+    400042: Bone035
+    400044: Bone037
+    400046: Bone038
+    400048: Bone039
+    400050: Bone040
+    400052: Bone041
+    400054: Bone042
+    400056: Bone043
+    400058: Bone044
+    400060: gera
+    400062: Bone057
+    400064: Bone057 1
+    400066: Bone058
+    400068: Bone058 1
+    400070: Bone059
+    400072: Bone060
+    400074: Bone061
+    400076: Bone062
+    400078: Bone063
+    400080: Bone064
+    400082: Bone065
+    400084: Bone066
+    400086: Bone067
+    400088: Bone068
+    400090: Bone069
+    400092: Bone070
+    400094: Bone071
+    400096: Bone072
+    400098: Bone073
+    400100: Bone074
+    400102: Bone075
+    400104: Bone076
+    400106: Bone077
+    400108: Bone078
+    400110: Bone079
+    400112: Bone080
+    400114: Bone081
+    400116: Bone082
+    400118: Bone083
+    400120: Bone084
+    400122: Bone085
+    400124: Bone086
+    400126: Bone087
+    400128: Bone088
+    400130: Bone089
+    400132: Bone090
+    400134: Bone091
+    400136: Bone092
+    400138: back1
+    400140: back2
+    400142: back3
+    400144: back4
+    400146: leftFingers
+    400148: leftFoot1
+    400150: leftFoot2
+    400152: leftHand1
+    400154: leftHand2
+    400156: leftLeg1
+    400158: leftLeg2
+    400160: leftShoulder
+    400162: leftThumb
+    400164: leftWrist
+    400166: mouth
+    400168: neck1
+    400170: neck2
+    400172: rightFingers
+    400174: rightFoot1
+    400176: rightFoot2
+    400178: rightHand1
+    400180: rightHand2
+    400182: rightLeg1
+    400184: rightLeg2
+    400186: rightShoulder
+    400188: rightThumb
+    400190: rightWrist
+    400192: rootBone
+    2300000: //RootNode
+    2300002: gera
+    3300000: //RootNode
+    3300002: gera
+    4300000: gera
+    7400000: runGera
+    7400002: runGera
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: gera
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: runGera
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 24
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bone092
+        weight: 1
+      - path: Bone092/Bone065
+        weight: 1
+      - path: Bone092/Bone065/Bone066
+        weight: 1
+      - path: Bone092/Bone065/Bone066/Bone067
+        weight: 1
+      - path: Bone092/Bone065/Bone066/Bone067/Bone068
+        weight: 1
+      - path: Bone092/Bone065/Bone066/Bone067/Bone068/Bone069
+        weight: 1
+      - path: Bone092/Bone065/Bone066/Bone067/Bone068/Bone069/Bone070
+        weight: 1
+      - path: Bone092/Bone065/Bone066/Bone067/Bone068/Bone069/Bone070/Bone071
+        weight: 1
+      - path: Bone092/Bone065/Bone066/Bone067/Bone068/Bone072
+        weight: 1
+      - path: Bone092/Bone065/Bone066/Bone067/Bone068/Bone072/Bone073
+        weight: 1
+      - path: Bone092/Bone065/Bone066/Bone067/Bone068/Bone072/Bone073/Bone074
+        weight: 1
+      - path: Bone092/Bone065/Bone066/Bone067/Bone068/Bone072/Bone073/Bone074/Bone086
+        weight: 1
+      - path: Bone092/Bone065/Bone066/Bone067/Bone068/Bone072/Bone073/Bone074/Bone086/Bone087
+        weight: 1
+      - path: Bone092/Bone065/Bone066/Bone067/Bone068/Bone072/Bone073/Bone074/Bone086/Bone088
+        weight: 1
+      - path: Bone092/Bone065/Bone066/Bone067/Bone068/Bone075
+        weight: 1
+      - path: Bone092/Bone065/Bone066/Bone067/Bone068/Bone075/Bone076
+        weight: 1
+      - path: Bone092/Bone065/Bone066/Bone067/Bone068/Bone075/Bone076/Bone077
+        weight: 1
+      - path: Bone092/Bone065/Bone066/Bone067/Bone068/Bone075/Bone076/Bone077/Bone091
+        weight: 1
+      - path: Bone092/Bone065/Bone066/Bone067/Bone068/Bone075/Bone076/Bone077/Bone091/Bone089
+        weight: 1
+      - path: Bone092/Bone065/Bone066/Bone067/Bone068/Bone075/Bone076/Bone077/Bone091/Bone090
+        weight: 1
+      - path: Bone092/Bone078
+        weight: 1
+      - path: Bone092/Bone078/Bone079
+        weight: 1
+      - path: Bone092/Bone078/Bone079/Bone080
+        weight: 1
+      - path: Bone092/Bone078/Bone079/Bone080/Bone081
+        weight: 1
+      - path: Bone092/Bone085
+        weight: 1
+      - path: Bone092/Bone085/Bone082
+        weight: 1
+      - path: Bone092/Bone085/Bone082/Bone083
+        weight: 1
+      - path: Bone092/Bone085/Bone082/Bone083/Bone084
+        weight: 1
+      - path: gera
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  additionalBone: 0
+  userData: 

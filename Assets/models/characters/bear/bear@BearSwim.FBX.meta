@@ -1,0 +1,152 @@
+fileFormatVersion: 2
+guid: efb955120a8eead45912fa39e08b11ea
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Head
+    100004: LeftFoot
+    100006: LeftHand
+    100008: LeftHand1
+    100010: LeftLeg
+    100012: LeftLeg1
+    100014: RightFood
+    100016: RightHand
+    100018: RightHand1
+    100020: RightLeg
+    100022: RightLeg1
+    100024: Spina1
+    100026: Spina2
+    100028: Spina3
+    100030: Spina4
+    400000: //RootNode
+    400002: Head
+    400004: LeftFoot
+    400006: LeftHand
+    400008: LeftHand1
+    400010: LeftLeg
+    400012: LeftLeg1
+    400014: RightFood
+    400016: RightHand
+    400018: RightHand1
+    400020: RightLeg
+    400022: RightLeg1
+    400024: Spina1
+    400026: Spina2
+    400028: Spina3
+    400030: Spina4
+    7400000: BearSwim
+    9500000: //RootNode
+    11100000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: BearSwim
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Spina1
+        weight: 1
+      - path: Spina1/LeftLeg
+        weight: 1
+      - path: Spina1/LeftLeg/LeftLeg1
+        weight: 1
+      - path: Spina1/LeftLeg/LeftLeg1/LeftFoot
+        weight: 1
+      - path: Spina1/RightLeg
+        weight: 1
+      - path: Spina1/RightLeg/RightLeg1
+        weight: 1
+      - path: Spina1/RightLeg/RightLeg1/RightFood
+        weight: 1
+      - path: Spina1/Spina2
+        weight: 1
+      - path: Spina1/Spina2/Spina3
+        weight: 1
+      - path: Spina1/Spina2/Spina3/LeftHand
+        weight: 1
+      - path: Spina1/Spina2/Spina3/LeftHand/LeftHand1
+        weight: 1
+      - path: Spina1/Spina2/Spina3/RightHand
+        weight: 1
+      - path: Spina1/Spina2/Spina3/RightHand/RightHand1
+        weight: 1
+      - path: Spina1/Spina2/Spina3/Spina4
+        weight: 1
+      - path: Spina1/Spina2/Spina3/Spina4/Head
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  additionalBone: 0
+  userData: 
